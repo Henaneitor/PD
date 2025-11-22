@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.henaneitor" name="Henaneitor Repository" version="1.0.0" provider-name="Henaneitor">
+    <extension point="xbmc.addon.repository" name="Henaneitor Repository">
+        <dir>
+            <!-- Dónde está el índice de tu repo (el que genera el script de python) -->
+            <info compressed="false">https://henaneitor.github.io/PD/zips/addons.xml</info>
+            <!-- Dónde está la firma MD5 -->
+            <checksum>https://henaneitor.github.io/PD/zips/addons.xml.md5</checksum>
+            <!-- Dónde están los archivos ZIP reales -->
+            <datadir zip="true">https://henaneitor.github.io/PD/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Repositorio de Henaneitor</summary>
+        <description>Repo personal para mis skins y scripts</description>
+        <platform>all</platform>
+        <assets>
+            <!-- Si tienes un icono, ponlo junto a este xml y descomenta esto -->
+            <!-- <icon>icon.png</icon> -->
+        </assets>
+    </extension>
+</addon>
