@@ -54,7 +54,7 @@
     </extension>
 </addon>
 
-<addon id="script.descarga.simple" name="Descargador Simple" version="0.0.1" provider-name="Dev">
+<addon id="script.descarga.simple" name="Descargador Simple" version="0.0.2" provider-name="Dev">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
