@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.descarga.simple" name="Descargador Simple" version="0.0.1" provider-name="Dev">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="kodi.context.item">
+        <menu id="kodi.core.main">
+            <item library="default.py">
+                <label>Descargar Video</label>
+                <visible>Player.HasVideo</visible>
+            </item>
+        </menu>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Descarga lo que estás viendo</summary>
+        <description>Detecta la URL del reproductor y descarga el archivo.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
